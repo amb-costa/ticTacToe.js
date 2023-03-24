@@ -27,3 +27,9 @@
     color:rgb(98, 27, 164);
     padding: 10px;
 }
+
+button {
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 5px 15px;
+}
