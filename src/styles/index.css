@@ -1,19 +1,29 @@
 #game {
-    background-color: rgb(155, 155, 155);
+    background-color: rgb(56, 56, 56);
     color:whitesmoke;
     text-align: center;
-    padding: 20px;
-}
-
-#mainPage{
-    background-color:rgb(46, 45, 45);
+    display: inline;
     padding: 40px;
-    width:60%;
-    height:50%;
-    margin: 20px auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
-#mainPage > * {
-    margin: 5px;
+#actualBoard {
+    position: relative; 
+    margin: auto;
+    width: 600px;
+    padding: 30px;
+}
+
+.row {
+    height: 150px;
+}
+
+.col {
+    background-color: rgb(232, 216, 195);
+    border: 1px solid black;
+    font-size: 75px;
+    color:rgb(98, 27, 164);
     padding: 10px;
 }
